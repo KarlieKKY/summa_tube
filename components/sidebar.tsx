@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { LayoutDashboard, Settings } from "lucide-react";
+import { LayoutDashboard, Settings, Info } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,6 +12,12 @@ const routes = [
     icon: LayoutDashboard,
     href: "/dashboard",
     color: "text-sky-500",
+  },
+  {
+    label: "About",
+    icon: Info,
+    href: "/about",
+    color: "text-yellow-400",
   },
   {
     label: "Settings",
