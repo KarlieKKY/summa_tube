@@ -1,0 +1,12 @@
+fastapi==0.100.1
+uvicorn[standard]==0.23.2
+fastapi-cors
+pytube
+python-dotenv
+ffmpeg
+langchain
+langchain-community 
+langchainhub 
+langchain-openai
+langchain[docarray]
+docarray
