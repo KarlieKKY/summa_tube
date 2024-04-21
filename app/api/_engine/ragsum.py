@@ -35,6 +35,11 @@ def transcribe_youtube_video(video_link, whisper_model_size):
 
     return transcription
 
+def transcription_to_summarization(video_transcript):
+    model = ChatOpenAI(openai_api_key=OPENAI_API_KEY, model="gpt-3.5-turbo")
+    template = """
+"""
+    
 
 def transcript_to_chunks(transcript, chunk_size, chunk_overlap):
     loader = TextLoader(transcript)

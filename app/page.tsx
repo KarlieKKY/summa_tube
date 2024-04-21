@@ -23,9 +23,10 @@ export default function Home() {
           </div>
           <h3> input youtueb link</h3>
 
-          <h3> start generating</h3>
+          <h3> start generating: show a progress bar</h3>
           <h3>youtube summarization</h3>
           <h3>QA section</h3>
+          <h3>show possible questions for users</h3>
         </div>
       </div>
     </main>
