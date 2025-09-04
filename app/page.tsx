@@ -1,32 +1,39 @@
 import { Button } from "@/components/ui/button";
-
+import {
+  Play,
+  Clock,
+  FileText,
+  Download,
+  Share2,
+  Bookmark,
+  Copy,
+  Check,
+  AlertCircle,
+  Loader2,
+} from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main>
-      <div className="h-full py-10">
-        <div className="mb-8 space-y-4">
-          <h2 className="text-2xl md:text-4xl font-bold text-center">
-            Explore the power of SummaTube
-          </h2>
-          <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-            Chat with the smartest AI - Experience the power of SummaTube AI
-          </p>
-        </div>
-        <div className="px-4 md:px-20 lg:px-32 space-y-4">
-          <div className="h-full relative flex flex-col items-center space-y-4 py-4">
-            <h1>Start summarizing!</h1>
-            <Link href="dashboard">
-              <Button>Click here</Button>
-            </Link>
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+        <div className="container mx-auto px-4 py-8 max-w-4xl">
+          {/* Header */}
+          <div className="text-center mb-12">
+            <div className="flex justify-center items-center gap-3 mb-4">
+              <div className="p-3 bg-red-500 rounded-full">
+                <Play className="w-8 h-8 text-white fill-white" />
+              </div>
+              <h1 className="text-4xl font-bold text-gray-800">
+                SummaTube - YouTube Summarizer
+              </h1>
+            </div>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Transform any YouTube video into concise, actionable summaries in
+              seconds
+            </p>
           </div>
-          <h3> input youtueb link</h3>
-
-          <h3> start generating: show a progress bar</h3>
-          <h3>youtube summarization</h3>
-          <h3>QA section</h3>
-          <h3>show possible questions for users</h3>
+          {/* Main Input Form */}
         </div>
       </div>
     </main>
