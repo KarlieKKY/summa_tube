@@ -40,3 +40,6 @@ next-env.d.ts
 *.py[cod]
 *$py.class
 **/__pycache__/
+
+/vectorstores/
+transcription.txt

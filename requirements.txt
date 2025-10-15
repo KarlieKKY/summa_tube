@@ -10,5 +10,6 @@ langchainhub
 langchain-openai
 langchain[docarray]
 docarray
-whisperx==3.4.2
+whisperx==3.7.2
 pytubefix==9.4.1
+faiss-cpu==1.12.0
